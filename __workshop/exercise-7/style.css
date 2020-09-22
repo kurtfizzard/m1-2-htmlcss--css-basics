@@ -17,3 +17,44 @@ li {
 }
 
 /* ADD CSS BELOW */
+
+body {
+  font-family: "Bangers", cursive;
+  margin-left: 10%
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h1,
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.col {
+  background-color: #F5F5F5; 
+  border: 1px dashed black;
+  margin: 10px;
+}
+
+.image {
+    max-height: 100px;
+    padding: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+}
